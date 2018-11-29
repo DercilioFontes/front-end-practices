@@ -11,7 +11,9 @@
 
         blockquote:before { content: open-quote; }
         blockquote:after { content: close-quote; }
-        
+
+        q { background-color: yellow; }
+
     </style>
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
@@ -27,7 +29,7 @@
     </dl>
 
     <h1>Quotations</h1>
-    <blockquote>All cats are black after midnight.</blockquote>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <blockquote cite="http://quotes.cat-v.org">All cats are black after midnight.</blockquote>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <q><strong>All cats are black after midnight.</strong></q> do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </body>
 </html>
